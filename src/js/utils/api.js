@@ -57,6 +57,7 @@ function setupConfig(instHandler) {
     conf.INSTR_UNARY = instHandler.instrUnary;
     conf.INSTR_LITERAL = instHandler.instrLiteral;
     conf.INSTR_CONDITIONAL = instHandler.instrConditional;
+    conf.ENABLE_SAMPLING = instHandler.ENABLE_SAMPLING;
 }
 
 /**
@@ -73,6 +74,7 @@ function clearConfig() {
     conf.INSTR_UNARY = null;
     conf.INSTR_LITERAL = null;
     conf.INSTR_CONDITIONAL = null;
+    conf.ENABLE_SAMPLING = null;
 }
 
 /**
